@@ -1,0 +1,37 @@
+.product{
+    background-color: var(--card-background);
+    width: 220px;
+    padding: 20px 16px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+
+}
+.product__img{
+    border-radius: 12px;
+    display: block; /*Elemento de bloque para centrar imagen ya que era un elemento de linea*/
+    margin:auto;
+
+}
+.product__name{
+   text-align: center;
+   font-size: 14px;
+   margin-top: 14px;
+   color: var(--text);
+}
+.product__details{
+    display: flex; /*un precio al lado del otro*/
+    margin-top: 16px; /*Para que se separe del precio*/
+    justify-content: space-between; /*Espacio entre los precios*/
+    align-items: center;/*Para centrar los precios*/
+    color: var(--text);
+
+}
+.product__oldPrice{
+    text-decoration: line-through;/*Para tachar precio*/
+
+}
+.product__price{
+    font-weight: bold; /*El precio esta en negrita*/
+}
+

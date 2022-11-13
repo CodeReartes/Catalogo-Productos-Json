@@ -1,0 +1,15 @@
+button{
+    width: 85px; /*Ancho*/
+    height: 30px; /*Altura*/
+    border-radius: 16px; /*Boton con bordes redondos*/
+    background-color: var(--main);
+    border: none; /*saca los bordes oscuros*/
+    color: var(--white); /*color de la fuente*/
+    font-weight: bold; /*para que el color blanco se ponga mas oscuro NEGRITA*/
+    cursor: pointer; /*para que el boton se convierta en puntero*/
+}  
+button:hover{
+    border:1px solid var(--main);
+    background-color: var(--white);
+    color: var(--main);
+}
